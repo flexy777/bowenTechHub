@@ -1,0 +1,644 @@
+body{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    z-index: -1;
+ }
+ 
+ #navbar{
+     
+     color: black;
+     /* align-items: center; */
+    
+    
+    
+ }
+ .logo{
+    height: 80px;
+    width: 127px;
+ }
+ nav{
+    z-index: 1;
+    background-color: white;
+    border-bottom: 1px solid #a1a1a1;;
+    width: auto;
+ }
+ .navbar{
+    font-family: 'Poppins', sans-serif;
+     padding: 1% 5% 1% 7%;
+     
+ }
+ .nav-item{
+    padding: 0px 20px 0px 50px;
+ }
+ 
+ .nav-button1{
+     height: 50px;
+     width: 180px;
+     border: 1px solid ;
+     /* border-image: linear-gradient(90deg, #4d67b1 0%, #d33c5b 100%);
+     border-image-slice: 1; */
+     border-radius: 8px;
+     border: double 3px transparent;
+     background-image: linear-gradient(white, white),
+     linear-gradient(90deg, #4d67b1 0%, #d33c5b 100%);
+     background-origin: border-box;
+     background-clip: content-box, border-box;
+     padding: 0px;
+     color: black;
+    
+     
+ }
+ .nav-link{
+     font-weight: bold;
+     font-size: 0.9rem;
+     font-family: 'Poppins', sans-serif;
+     color: black !important;
+ }
+ #button1{
+    margin-left: 20px;
+ }
+
+ .container-fluid{
+     margin-top: 150px;
+     padding: 6% 4% 3%;
+ }
+ .container-fluidi{
+    padding: 6% 4% 3%;
+}
+.container-fluidii{
+    padding: 7% 20%;
+}
+ .left-title{
+    padding-left: 30px;
+    text-align: left;
+ }
+ .title-image{
+    height: 500px;
+    width: 500px;
+ }
+ .second-image{
+    height: 400px;
+    width: 550px;
+ }
+
+.date{
+    display: inline;
+    padding-right: 15px;
+    color: #a1a1a1;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+}
+.loc{
+    color : #a1a1a1;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+}
+.location{
+    padding-right: 10px ;
+    color : #a1a1a1;
+}
+.big-heading{
+    font-size: 3.8rem;  
+    line-height: 1.0;
+    font-weight: 700;
+    color : #4d67b1;
+   width: 150%;
+   padding-top: 20px;
+   font-family: 'Montserrat', sans-serif;
+    
+}
+.small-heading{
+width: 150%;
+font-weight: 700;
+font-size: 3.8rem;
+margin-top: 10px;
+color : #4d67b1;
+font-family: 'Montserrat', sans-serif;
+text-align: justify;
+}
+.left-button{
+    margin: 4% 0%;
+}
+.time-box{
+    opacity: 0.5;
+    width: 80px;
+    height: 101px;
+    border-radius: 12px;
+    background-color: #Db909f ;
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 10px;
+    align-items: center;
+    padding: 20px;
+    padding-top: 10px;
+    font-size: 2.0rem;
+}
+.time-box h1{
+    font-weight: bold;
+    font-family: 'Dosis', sans-serif
+}
+.time-box p{
+    font-size: 1.0rem;
+    
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+    
+}
+.big-heading2{
+    font-size: 2.5rem;  
+    line-height: 2.0;
+    font-weight: 600;
+    color : #4d67b1;
+   width: 100%;
+   padding-top: 50px;
+   text-align: left;
+}  
+.sponsor-text{
+    font-size: 1.3rem;  
+    line-height: 1.5;
+    font-weight: 400;
+   width: 100%;
+   text-align: justify;
+   color: #a1a1a1;
+   padding-left: 60px;
+   width: 50%;
+}
+    
+
+.small-heading2{
+    font-size: 1.3rem;  
+    line-height: 1.5;
+    font-weight: 400;
+   width: 100%;
+   text-align: justify;
+   color: #a1a1a1;
+  
+    
+}
+@media (max-width:780px){
+    .title-image{
+        padding-top: 40px;
+    }
+    .big-heading2{
+        font-size: 1.8rem;
+        line-height: 1.0;
+        width: 150%;
+        padding-left: 30px;
+        font-weight: 600;
+        
+    }
+    .small-heading2{
+        line-height: 1.5;
+        width: 130%;
+        padding-left: 30px;
+        
+    }
+   
+}
+
+.spons-card{
+    height: 150px;
+    width: 250px;
+    margin-right: 50px;
+    margin-top: 30px;
+ 
+    
+}
+.spons-card2{
+    height: 150px;
+    width: 250px;
+    margin-right: 50px;
+    margin-top: 30px;
+ 
+    
+}
+.spons-card::before{
+    position: absolute;
+    width: 0;
+    height: 0;
+    margin-top: 100px;
+    margin-left: 57px;
+    transform: rotate(90deg);
+    border: 25px solid transparent;
+    border-top-color: #bc446a;
+    border-right-color: #4d67b1;
+    content: "";
+    z-index: 1;
+}
+.spons-card2::before{
+    position: absolute;
+    width: 0;
+    height: 0;
+    margin-top: 100px;
+    margin-left: 57px;
+    transform: rotate(90deg);
+    border: 25px solid transparent;
+    border-top-color: #bc446a;
+    border-right-color: #4d67b1;
+    content: "";
+    z-index: 1;
+}
+.spons-img{
+    width: 50px;
+    height: 50px;
+    margin-top: 40px;
+    
+}
+.spons-desc{
+    font-weight: bold;
+    padding-top: 10px;
+}
+.spons-left{
+    float: left;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    width: 30px;
+    height: 150px;
+    background-color: #4D67B1;
+}
+.spons-right{
+    width: 220px;
+    height: 150px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background-color: #F1F1FE;
+    border-radius: 8px;
+
+}
+.spons-but{
+    height: 50px;
+     width: 180px;
+     border: 1px solid ;
+     border-radius: 8px;
+     border: none;
+     /* border: double 3px transparent; */
+     background-image: linear-gradient(90deg, #4d67b1 0%, #d33c5b 100%);
+     padding: 0px;
+     color: white;
+}
+.contact-card{
+    margin-top: 40px;
+    height: 100px;
+    width: 250px;
+    margin-right: 50px;
+    border: 1px solid ;
+    border-radius: 8px;
+    border: double 3px transparent;
+    background-image: linear-gradient(white, white),
+    linear-gradient(90deg, #4d67b1 0%, #d33c5b 100%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    padding: 0px;
+    color: black;
+
+}
+.contact-text{
+    font-size: 1.5rem;
+    padding-right: 100px;
+    color: #a1a1a1;
+}
+.contact-head{
+    font-size: 2.5rem;  
+    line-height: 2.0;
+    font-weight: 600;
+    color : #4d67b1;
+   width: 100%;
+   padding-top: 50px;
+   text-align: left;
+   padding-left: 57px;
+}
+.contact-card h4{
+    padding-top: 20px;
+    font-size: 1.0rem;
+    font-weight: bold;
+    font-family: 'Dosis', sans-serif;
+}
+.contact-card p{
+    font-size: 0.9rem;
+    color: #a1a1a1;
+    font-family: 'Dosis', sans-serif;
+}
+#socials{
+    padding-bottom: 100px;
+}
+.social-card{
+    display: inline-block;
+}
+.social-text{
+    font-size: 1.5rem;
+    padding-right: 80px;
+    margin-top: 60px;
+    color: #a1a1a1;
+}
+.social-card button{
+    margin-top: 40px;
+    height: 50px;
+    width: 50px;
+    margin-right: 50px;
+    border: 1px solid ;
+    border-radius: 8px;
+    border: double 3px transparent;
+    background-image: linear-gradient(white, white),
+    linear-gradient(90deg, #4d67b1 0%, #d33c5b 100%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    padding: 0px;
+    color: black;
+}
+#footer{
+    background-color: black;
+    padding: 3% 5% 5% 7%;
+    text-align: left;
+}  
+.footer-line{
+    height: 3px !important;
+    border: none;
+    background-image: linear-gradient(to right, #4d67b1 0%, #d33c5b 100%);
+}
+.footer-text{
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    color: white;
+}
+.footer-button{
+    height: 30px;
+    width: 30px;
+    background: linear-gradient(to bottom, #4d67b1 0%, #d33c5b 100%) ;
+    border-radius: 8px;
+    border: none;
+   float: right;
+   color: white;
+}
+
+
+.box {
+    gap: 1rem;
+    padding-left: 50px;
+
+}
+
+.box1 {
+    height: 240px;
+    width: 230px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    
+}
+.one {
+    width: 254px;
+}
+.three {
+    width: 254px;
+}
+#two{
+    margin-left: 70px;
+}
+#four{
+    margin-left: 70px;
+}
+
+img {
+    height: 238px;
+    width: 228px;
+    border-radius: 10px;
+}
+
+.linear {
+    height: 3px;
+    top: -73px;
+    margin-left: 1px;
+    
+    width: 300px;
+    position: relative;
+    background-image: linear-gradient(to right, #4D67B1, #4D67B1, #D33C5B, #8F5286);
+}
+.linear2{
+    height: 3px;
+    top: -73px;
+    margin-left: 70px;
+    
+    width: 300px;
+    position: relative;
+    background-image: linear-gradient(to right, #4D67B1, #4D67B1, #D33C5B, #8F5286);
+}
+
+.overlay {
+    position: relative;
+    height: 71px;
+    width: 300px;
+    /* margin-left: 70px; */
+    bottom: 73px;
+    
+    border-radius: 0px 0px 10px 10px;
+     background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+}
+.overlay2{
+    position: relative;
+    height: 71px;
+    width: 300px;
+    margin-left: 70px;
+    bottom: 73px;
+    
+    border-radius: 0px 0px 10px 10px;
+     background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+}
+
+.wd {
+    height: 13px;
+}
+.micro{
+    width: 300px;
+    height: 300px;
+    /* margin-left: 70px; */
+}
+
+.wd1,
+.wd2 {
+    margin-left: 20px;
+    color: white;
+}
+
+.wd1 {
+    font-weight: bold;
+}
+
+.more {
+    height: 50px;
+    width: 150px;
+    margin-top: 30px;
+    float: left;
+    margin-left: 100px;
+    border: 1px solid ;
+    border-radius: 8px;
+    border: double 3px transparent;
+    background-image: linear-gradient(white, white),
+    linear-gradient(90deg, #4d67b1 0%, #d33c5b 100%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    padding: 0px;
+    color: black;
+   
+}
+/* @media(min-width:1200px){
+    .container-fluidii{
+        padding-left: 260px;
+        padding-right: 100px;
+    }
+    .box{
+        padding-left: 100px;
+    }
+    .one {
+        width: 234px;
+    }
+    .three {
+        width: 234px;
+    }
+    .more{
+        margin-left: 100px;
+    }
+    .contact-card{
+        margin-right: 20px;
+    }
+} */
+@media(max-width:1024px){
+    .container-fluidii{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .box{
+        padding-left: 0px;
+    }
+    .one {
+        width: 234px;
+    }
+    .three {
+        width: 234px;
+    }
+    .more{
+        margin-left: 0px;
+    }
+    .contact-card{
+        margin-right: 20px;
+    }
+}
+
+
+
+
+@media(max-width:500px){
+    .sponsor-text{
+        width: 130%;
+    }
+    .time-container{
+        width: 400px;
+    }
+    #two{
+        margin-left: 0px;
+    }
+    #four{
+        margin-left: 0px;
+    }
+    .container-fluidii{
+        padding-left: 200px;
+        padding-right: 30px;
+    }
+    .box{
+        padding-left: 150px;
+    }
+    .contact-text{
+        padding-top: 40px;
+    }
+    .contact-head {
+        font-size: 2.5rem;
+        line-height: 2.0; 
+        font-weight: 600;
+        color: #4d67b1;
+        width: 100%;
+        padding-top: 50px;
+        text-align: left;
+        padding-left: 100px;
+        margin-left: 80px;
+    }
+    .overlay2{
+        position: relative;
+        height: 71px;
+        width: 300px;
+        margin-left: 0px;
+        bottom: 73px;
+        
+        border-radius: 0px 0px 10px 10px;
+         background-color: rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+    }
+    .linear2{
+        height: 3px;
+        top: -73px;
+        margin-left: 0px;
+        
+        width: 300px;
+        position: relative;
+        background-image: linear-gradient(to right, #4D67B1, #4D67B1, #D33C5B, #8F5286);
+    }
+    
+    
+    .more{
+        margin-left: 220px;
+    }
+    .contact-text {
+        font-size: 1.0rem;
+        padding-right: 0px;
+    }
+    .social-text{
+        font-size: 1.0rem;
+        padding-right: 50px;
+        padding-left: 50px;
+        }
+    #socials{
+        width: 500px;
+        margin-left: 50px;
+    }
+    #footer{
+       width: 606px;
+    }
+    .spons-card::before{
+        margin-left: 80px;
+       
+    }
+    .spons-card2::before{
+        margin-left: 92px;
+       
+    }
+    .contact-head{
+        padding-left: 100px;
+    }
+}
+
+@media(max-width:375px){
+    .container-fluidii{
+        padding-left: 180px;
+        padding-right: 10px;
+    }
+    .location{
+        padding-left: 10px;
+    }
+    .social-text{
+        padding-left: 0px;
+    }
+    .sponsor-text{
+        padding-left: 80px;
+    }
+    .spons-card::before{
+        margin-left: 100px;
+       
+    }
+    .spons-card2::before{
+        margin-left: 119px;
+       
+    }
+   
+}
